@@ -2,6 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 #container {
@@ -15,7 +16,15 @@ body {
 }
 
 #container div {
-    background-color: blue;
     margin: 0;
     padding: 0;
+}
+
+#btn {
+    background-color: black;
+    color: orange;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
 }
